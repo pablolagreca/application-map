@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html style="height:100%">
+	<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<title>JS Graph - Plain Javascript Demo</title>
+		<link rel="stylesheet" href="resources/css/default.css">
+		<script type="text/javascript" src="http://code.jquery.com/jquery-2.1.4.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="resources/css/jsgdemosimple.css"/>
+		<script type="application/javascript" src="../../lib/Loader.js"></script>
+		<script type="application/javascript" src="loader.js"></script>
+	</head>
+	<body onload="loadDemo()" style="overflow: hidden;">
+		<img src="resources/icons/ms-logo.svg" >
+		<div id="graphapp" style="width:100%; height:100%;">
+			<div id="load">
+				<a onclick="AppMap.loadServers()">Load servers </a>
+			</div>
+			<div id="graph">
+				<canvas id="canvas1" tabindex="0" style="cursor:auto; outline: 0; width:100%; height:100%;">
+				</canvas>
+			</div>
+			<div id="palette">
+			</div>
+		</div>
+	</body>
+</html>
+
